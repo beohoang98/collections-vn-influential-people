@@ -1,0 +1,89 @@
+*
+    box-sizing: border-box
+    
+body
+    margin: 0
+    display: flex
+    flex-direction: column
+    background: #fff
+    font-family: sans-serif
+    
+
+.header
+    position: -webkit-sticky
+    position: sticky
+    text-align: center
+    height: 300px
+    top: calc(-300px + 3em)
+    background: #3cf
+    z-index: 1998
+    box-shadow: 0 2px 3px #0003
+
+    h1
+        position: sticky
+        margin-top: calc(150px - 1em)
+        top: 1em
+        color: white
+        text-shadow: 0 2px 2px #0003
+        margin-bottom: 0.25em
+
+.list
+    display: flex
+    flex-flow: row wrap
+    justify-content: center
+    align-items: flex-start
+    flex-grow: 1
+    max-width: 800px
+    margin: 0 auto
+
+.info-card
+    margin: 2em
+    width: 200px
+    background: #fff
+    box-shadow: 0 2px 2px #0005
+    border-radius: 9px
+    overflow: hidden
+    transition: 0.4s
+    
+    &:hover
+        transform: translateY(-17px)
+        box-shadow: 0 19px 19px #0002
+
+    &-avatar
+        width: 200px
+        height: 200px
+        object-fit: cover
+    &-body
+        padding: 1em
+        text-align: center
+    &-link
+        display: flex
+        flex-flow: row wrap
+        justify-content: center
+
+.info
+    &-name
+        font-weight: bold
+        font-size: 1.25em
+
+    &-des
+        color: #555
+    &-link
+        width: 1.5em
+        height: 1.5em
+        border-radius: 5px
+        overflow: hidden
+        background-color: #fff
+        margin: 1em
+        background-size: 100% 100%
+        background-position: center
+
+.link
+    &-github
+        background-image: url('icon/github.png')
+    &-facebook
+        background-image: url('icon/facebook.png')
+    &-spiderum
+        background-image: url('icon/spiderum.jpg')
+    &-blog
+        background-image: url('icon/grid-world.png')
