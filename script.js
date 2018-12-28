@@ -26,7 +26,7 @@ async function getGithubInfo(github_id) {
     const json = await res.json();
 
     const img = new Image();
-    img.src = json.avatar_url;
+    img.src = json.avatar_url || '';
     const link = json.html_url;
 
     return {img, link};

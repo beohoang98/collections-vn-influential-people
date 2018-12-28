@@ -51,6 +51,23 @@
             "des": "Developer & Tech Blogger",
             "github": "6670026",
             "blog":"https://toidicodedao.com/"
+        },
+        {
+            "name": "Đinh Quang Trung",
+            "des": "Developer",
+            "github": "4214509",
+            "blog":"https://dinhquangtrung.net/windows7/"
+        },
+        {
+            "name": "Chau Ngo",
+            "des": "Vietnamese Mathematics",
+            "fbid": "100004876026929"
+        },
+        {
+            "name": "Vu Nhat Minh",
+            "des": "Kipalog Co-Founder",
+            "fbid": "1336236197",
+            "blog": "https://kipalog.com/users/VuNhatMinh/mypage"
         }
     ]
 }
